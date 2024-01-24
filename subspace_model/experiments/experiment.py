@@ -483,7 +483,7 @@ def initial_conditions(
 
 
 def reference_subsidy_sweep(
-    SIMULATION_DAYS: int = 360, TIMESTEP_IN_DAYS: int = 1, SAMPLES: int = 1
+    SIMULATION_DAYS: int = 365 * 2, TIMESTEP_IN_DAYS: int = 1, SAMPLES: int = 1
 ) -> DataFrame:
     """Sweeps issuance functions.
 
